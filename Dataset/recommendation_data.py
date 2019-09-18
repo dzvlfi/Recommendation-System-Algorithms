@@ -1,0 +1,323 @@
+# Data set of people and movies they have rate 
+#0 means either they havent watched it yet.
+
+# dataset={
+# 			'Alice': {'Love At Last': 5, 
+# 							'Romance Forever': 5,
+# 							'Cute puppies of love': 0, 
+# 							'Nonstop car chases': 0, 
+# 							'Swords vs karate': 0,
+# 							},
+
+# 			'Bob': {'Love At Last': 5, 
+# 							'Romance Forever': 0,
+# 							'Cute puppies of love': 4,
+# 							 'Nonstop car chases': 0,
+# 							  'Swords vs karate':0 
+# 							 },
+
+# 			'Carol': {'Love At Last': 0, 
+# 								'Romance Forever': 0,
+# 								'Cute puppies of love': 0,
+# 								 'Nonstop car chases': 5,
+# 								 'Swords vs karate':5,
+# 								 },
+
+
+
+# 			'Dave': {'Love At Last': 0, 
+# 							'Romance Forever': 0,
+# 							'Cute puppies of love': 0, 
+# 							'Nonstop car chases': 4,
+# 							'Swords vs karate': 0}}
+
+dataset = {
+    "Mulya": {
+        "Gundala": 0, 
+        "The Lion King": 2, 
+        "Bumi Manusia ": 0, 
+        "Aladdin": 5, 
+        "Avengers: End Game": 4, 
+        "Captain Marvel": 3, 
+        "Ada Apa dengan Cinta 2": 0, 
+        "Dilan 1991": 0, 
+        "Dua Garis Biru": 0, 
+        "Spiderman: Far From Home": 4
+    }, 
+    "bunga": {
+        "Gundala": 4, 
+        "The Lion King": 5, 
+        "Bumi Manusia ": 0, 
+        "Aladdin": 5, 
+        "Avengers: End Game": 5, 
+        "Captain Marvel": 5, 
+        "Ada Apa dengan Cinta 2": 0, 
+        "Dilan 1991": 4, 
+        "Dua Garis Biru": 0, 
+        "Spiderman: Far From Home": 5
+    }, 
+    "Indra 1991 SM": {
+        "Gundala": 5, 
+        "The Lion King": 0, 
+        "Bumi Manusia ": 0, 
+        "Aladdin": 0, 
+        "Avengers: End Game": 0, 
+        "Captain Marvel": 0, 
+        "Ada Apa dengan Cinta 2": 0, 
+        "Dilan 1991": 0, 
+        "Dua Garis Biru": 0, 
+        "Spiderman: Far From Home": 0
+    }, 
+    "Genjeh": {
+        "Gundala": 4, 
+        "The Lion King": 0, 
+        "Bumi Manusia ": 0, 
+        "Aladdin": 5, 
+        "Avengers: End Game": 5, 
+        "Captain Marvel": 4, 
+        "Ada Apa dengan Cinta 2": 5, 
+        "Dilan 1991": 3, 
+        "Dua Garis Biru": 0, 
+        "Spiderman: Far From Home": 4
+    }, 
+    "Hania": {
+        "Gundala": 5, 
+        "The Lion King": 0, 
+        "Bumi Manusia ": 4, 
+        "Aladdin": 0, 
+        "Avengers: End Game": 0, 
+        "Captain Marvel": 0, 
+        "Ada Apa dengan Cinta 2": 3, 
+        "Dilan 1991": 4, 
+        "Dua Garis Biru": 4, 
+        "Spiderman: Far From Home": 0
+    }, 
+    "Indra Junior": {
+        "Gundala": 0, 
+        "The Lion King": 5, 
+        "Bumi Manusia ": 0, 
+        "Aladdin": 5, 
+        "Avengers: End Game": 5, 
+        "Captain Marvel": 5, 
+        "Ada Apa dengan Cinta 2": 4, 
+        "Dilan 1991": 0, 
+        "Dua Garis Biru": 4, 
+        "Spiderman: Far From Home": 5
+    }, 
+    "OM INDRA": {
+        "Gundala": 0, 
+        "The Lion King": 0, 
+        "Bumi Manusia ": 0, 
+        "Aladdin": 1, 
+        "Avengers: End Game": 5, 
+        "Captain Marvel": 5, 
+        "Ada Apa dengan Cinta 2": 3, 
+        "Dilan 1991": 2, 
+        "Dua Garis Biru": 5, 
+        "Spiderman: Far From Home": 5
+    }, 
+    "Nonton_Saat_Diskon": {
+        "Gundala": 3, 
+        "The Lion King": 5, 
+        "Bumi Manusia ": 0, 
+        "Aladdin": 5, 
+        "Avengers: End Game": 5, 
+        "Captain Marvel": 5, 
+        "Ada Apa dengan Cinta 2": 4, 
+        "Dilan 1991": 3, 
+        "Dua Garis Biru": 0, 
+        "Spiderman: Far From Home": 4
+    }, 
+    "Star": {
+        "Gundala": 4, 
+        "The Lion King": 5, 
+        "Bumi Manusia ": 0, 
+        "Aladdin": 5, 
+        "Avengers: End Game": 5, 
+        "Captain Marvel": 5, 
+        "Ada Apa dengan Cinta 2": 4, 
+        "Dilan 1991": 0, 
+        "Dua Garis Biru": 0, 
+        "Spiderman: Far From Home": 0
+    }, 
+    "Damar Teman Firli": {
+        "Gundala": 0, 
+        "The Lion King": 0, 
+        "Bumi Manusia ": 0, 
+        "Aladdin": 0, 
+        "Avengers: End Game": 5, 
+        "Captain Marvel": 0, 
+        "Ada Apa dengan Cinta 2": 5, 
+        "Dilan 1991": 0, 
+        "Dua Garis Biru": 0, 
+        "Spiderman: Far From Home": 5
+    }, 
+    "Jawaharal": {
+        "Gundala": 4, 
+        "The Lion King": 4, 
+        "Bumi Manusia ": 0, 
+        "Aladdin": 5, 
+        "Avengers: End Game": 5, 
+        "Captain Marvel": 4, 
+        "Ada Apa dengan Cinta 2": 2, 
+        "Dilan 1991": 3, 
+        "Dua Garis Biru": 5, 
+        "Spiderman: Far From Home": 5
+    }, 
+    "Rima": {
+        "Gundala": 5, 
+        "The Lion King": 4, 
+        "Bumi Manusia ": 4, 
+        "Aladdin": 5, 
+        "Avengers: End Game": 5, 
+        "Captain Marvel": 5, 
+        "Ada Apa dengan Cinta 2": 5, 
+        "Dilan 1991": 5, 
+        "Dua Garis Biru": 3, 
+        "Spiderman: Far From Home": 5
+    }, 
+    "Dpv": {
+        "Gundala": 4, 
+        "The Lion King": 0, 
+        "Bumi Manusia ": 0, 
+        "Aladdin": 0, 
+        "Avengers: End Game": 5, 
+        "Captain Marvel": 5, 
+        "Ada Apa dengan Cinta 2": 5, 
+        "Dilan 1991": 4, 
+        "Dua Garis Biru": 0, 
+        "Spiderman: Far From Home": 5
+    }, 
+    "Putrisqiana": {
+        "Gundala": 3, 
+        "The Lion King": 0, 
+        "Bumi Manusia ": 4, 
+        "Aladdin": 0, 
+        "Avengers: End Game": 5, 
+        "Captain Marvel": 3, 
+        "Ada Apa dengan Cinta 2": 4, 
+        "Dilan 1991": 2, 
+        "Dua Garis Biru": 3, 
+        "Spiderman: Far From Home": 4
+    }, 
+    "AhokTemanFirli": {
+        "Gundala": 0, 
+        "The Lion King": 0, 
+        "Bumi Manusia ": 0, 
+        "Aladdin": 0, 
+        "Avengers: End Game": 3, 
+        "Captain Marvel": 4, 
+        "Ada Apa dengan Cinta 2": 0, 
+        "Dilan 1991": 0, 
+        "Dua Garis Biru": 0, 
+        "Spiderman: Far From Home": 0
+    }, 
+    "Maria O.": {
+        "Gundala": 0, 
+        "The Lion King": 5, 
+        "Bumi Manusia ": 0, 
+        "Aladdin": 4, 
+        "Avengers: End Game": 0, 
+        "Captain Marvel": 0, 
+        "Ada Apa dengan Cinta 2": 0, 
+        "Dilan 1991": 0, 
+        "Dua Garis Biru": 0, 
+        "Spiderman: Far From Home": 0
+    }, 
+    "jul": {
+        "Gundala": 3, 
+        "The Lion King": 3, 
+        "Bumi Manusia ": 0, 
+        "Aladdin": 3, 
+        "Avengers: End Game": 3, 
+        "Captain Marvel": 3, 
+        "Ada Apa dengan Cinta 2": 0, 
+        "Dilan 1991": 0, 
+        "Dua Garis Biru": 3, 
+        "Spiderman: Far From Home": 3
+    }, 
+    "faizah": {
+        "Gundala": 0, 
+        "The Lion King": 0, 
+        "Bumi Manusia ": 5, 
+        "Aladdin": 0, 
+        "Avengers: End Game": 5, 
+        "Captain Marvel": 0, 
+        "Ada Apa dengan Cinta 2": 3, 
+        "Dilan 1991": 5, 
+        "Dua Garis Biru": 4, 
+        "Spiderman: Far From Home": 0
+    }, 
+    "Topik Zulkarnain": {
+        "Gundala": 0, 
+        "The Lion King": 5, 
+        "Bumi Manusia ": 0, 
+        "Aladdin": 0, 
+        "Avengers: End Game": 5, 
+        "Captain Marvel": 2, 
+        "Ada Apa dengan Cinta 2": 0, 
+        "Dilan 1991": 0, 
+        "Dua Garis Biru": 0, 
+        "Spiderman: Far From Home": 4
+    }, 
+    "Romantika": {
+        "Gundala": 0, 
+        "The Lion King": 0, 
+        "Bumi Manusia ": 0, 
+        "Aladdin": 0, 
+        "Avengers: End Game": 0, 
+        "Captain Marvel": 0, 
+        "Ada Apa dengan Cinta 2": 5, 
+        "Dilan 1991": 5, 
+        "Dua Garis Biru": 0, 
+        "Spiderman: Far From Home": 0
+    }, 
+    "ANI": {
+        "Gundala": 0, 
+        "The Lion King": 0, 
+        "Bumi Manusia ": 5, 
+        "Aladdin": 4, 
+        "Avengers: End Game": 0, 
+        "Captain Marvel": 4, 
+        "Ada Apa dengan Cinta 2": 4, 
+        "Dilan 1991": 4, 
+        "Dua Garis Biru": 0, 
+        "Spiderman: Far From Home": 3
+    }, 
+    "Febi ganteng gak ada obat": {
+        "Gundala": 3, 
+        "The Lion King": 0, 
+        "Bumi Manusia ": 0, 
+        "Aladdin": 5, 
+        "Avengers: End Game": 5, 
+        "Captain Marvel": 4, 
+        "Ada Apa dengan Cinta 2": 4, 
+        "Dilan 1991": 4, 
+        "Dua Garis Biru": 0, 
+        "Spiderman: Far From Home": 5
+    }, 
+    "franadek": {
+        "Gundala": 4, 
+        "The Lion King": 4, 
+        "Bumi Manusia ": 5, 
+        "Aladdin": 5, 
+        "Avengers: End Game": 5, 
+        "Captain Marvel": 4, 
+        "Ada Apa dengan Cinta 2": 4, 
+        "Dilan 1991": 4, 
+        "Dua Garis Biru": 3, 
+        "Spiderman: Far From Home": 4
+    }, 
+    "luck": {
+        "Gundala": 0, 
+        "The Lion King": 0, 
+        "Bumi Manusia ": 0, 
+        "Aladdin": 0, 
+        "Avengers: End Game": 4, 
+        "Captain Marvel": 2, 
+        "Ada Apa dengan Cinta 2": 3, 
+        "Dilan 1991": 0, 
+        "Dua Garis Biru": 0, 
+        "Spiderman: Far From Home": 0
+    }
+}
