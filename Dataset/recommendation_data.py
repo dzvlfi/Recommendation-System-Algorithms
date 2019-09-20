@@ -31,7 +31,7 @@
 # 							'Nonstop car chases': 4,
 # 							'Swords vs karate': 0}}
 
-datasets = {
+dataset = {
     "Mulya": {
         "Gundala": 0, 
         "The Lion King": 2, 
