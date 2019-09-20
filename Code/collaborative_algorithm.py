@@ -14,7 +14,6 @@ class JulCollaborative(object):
     """docstring for JulCollaborative"""
     def __init__(self, dataset):
         self.dataset = dict()
-        print(len(dataset))
         for idx in dataset:
             self.dataset[idx] = dict()
             for movie in (dataset[idx]):
