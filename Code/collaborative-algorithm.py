@@ -8,7 +8,15 @@ cwd = os.getcwd() + '/Dataset'
 sys.path.insert(0, cwd)#'/path/to/application/app/folder')
 
 #rec = os.getcwd()+'/'
-from recommendation_data import dataset
+from recommendation_data import datasets
+
+dataset = dict()
+iterasi = datasets
+for idx in iterasi:
+    dataset[idx] = dict()
+    for movie in (datasets[idx]):
+        if datasets[idx][movie] != 0:
+            dataset[idx][movie] = datasets[idx][movie]
 
 #load data from dataset
 
@@ -116,10 +124,10 @@ def user_recommendations(person):
     rankings.sort()
     rankings.reverse()
     # returns the recommended items
-    recommendataions_list = [recommend_item for score,recommend_item in rankings]
-    return recommendataions_list
+    #recommendataions_list = [recommend_item for score,recommend_item in rankings]
+    return rankings#recommendataions_list, 
         
-if __name__ == '__main__':
+def main():
     #optParser = OptionParser()
 
     #optParser.add_option('-n', '--nama', dest='nama',
@@ -129,7 +137,9 @@ if __name__ == '__main__':
 
     #(options, args) = optParser.parse_args()
     #nama = options.nama
-    print('Recommendation for jul: ',user_recommendations('jul'))
-    print('Person correlation: ',person_correlation('jul','Hania'))
-    print('Similarity score: ',similarity_score('jul','Hania'))
-    print('most similar person to jul: ',most_similar_users('jul',24))
+    recommendation = user_recommendations('jul')
+    #print('Recommendation for jul: ',recommendation)
+    return recommendation
+    #print('Person correlation: ',person_correlation('jul','Hania'))
+    #print('Similarity score: ',similarity_score('jul','Hania'))
+    #print('most similar person to jul: ',most_similar_users('jul',24))
