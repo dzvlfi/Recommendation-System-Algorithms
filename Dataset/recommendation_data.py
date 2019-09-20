@@ -31,11 +31,11 @@
 # 							'Nonstop car chases': 4,
 # 							'Swords vs karate': 0}}
 
-dataset = {
+datasets = {
     "Mulya": {
         "Gundala": 0, 
         "The Lion King": 2, 
-        "Bumi Manusia ": 0, 
+        "Bumi Manusia": 0, 
         "Aladdin": 5, 
         "Avengers: End Game": 4, 
         "Captain Marvel": 3, 
@@ -47,7 +47,7 @@ dataset = {
     "bunga": {
         "Gundala": 4, 
         "The Lion King": 5, 
-        "Bumi Manusia ": 0, 
+        "Bumi Manusia": 0, 
         "Aladdin": 5, 
         "Avengers: End Game": 5, 
         "Captain Marvel": 5, 
@@ -59,7 +59,7 @@ dataset = {
     "Indra 1991 SM": {
         "Gundala": 5, 
         "The Lion King": 0, 
-        "Bumi Manusia ": 0, 
+        "Bumi Manusia": 0, 
         "Aladdin": 0, 
         "Avengers: End Game": 0, 
         "Captain Marvel": 0, 
@@ -71,7 +71,7 @@ dataset = {
     "Genjeh": {
         "Gundala": 4, 
         "The Lion King": 0, 
-        "Bumi Manusia ": 0, 
+        "Bumi Manusia": 0, 
         "Aladdin": 5, 
         "Avengers: End Game": 5, 
         "Captain Marvel": 4, 
@@ -83,7 +83,7 @@ dataset = {
     "Hania": {
         "Gundala": 5, 
         "The Lion King": 0, 
-        "Bumi Manusia ": 4, 
+        "Bumi Manusia": 4, 
         "Aladdin": 0, 
         "Avengers: End Game": 0, 
         "Captain Marvel": 0, 
@@ -95,7 +95,7 @@ dataset = {
     "Indra Junior": {
         "Gundala": 0, 
         "The Lion King": 5, 
-        "Bumi Manusia ": 0, 
+        "Bumi Manusia": 0, 
         "Aladdin": 5, 
         "Avengers: End Game": 5, 
         "Captain Marvel": 5, 
@@ -107,7 +107,7 @@ dataset = {
     "OM INDRA": {
         "Gundala": 0, 
         "The Lion King": 0, 
-        "Bumi Manusia ": 0, 
+        "Bumi Manusia": 0, 
         "Aladdin": 1, 
         "Avengers: End Game": 5, 
         "Captain Marvel": 5, 
@@ -119,7 +119,7 @@ dataset = {
     "Nonton_Saat_Diskon": {
         "Gundala": 3, 
         "The Lion King": 5, 
-        "Bumi Manusia ": 0, 
+        "Bumi Manusia": 0, 
         "Aladdin": 5, 
         "Avengers: End Game": 5, 
         "Captain Marvel": 5, 
@@ -131,7 +131,7 @@ dataset = {
     "Star": {
         "Gundala": 4, 
         "The Lion King": 5, 
-        "Bumi Manusia ": 0, 
+        "Bumi Manusia": 0, 
         "Aladdin": 5, 
         "Avengers: End Game": 5, 
         "Captain Marvel": 5, 
@@ -143,7 +143,7 @@ dataset = {
     "Damar Teman Firli": {
         "Gundala": 0, 
         "The Lion King": 0, 
-        "Bumi Manusia ": 0, 
+        "Bumi Manusia": 0, 
         "Aladdin": 0, 
         "Avengers: End Game": 5, 
         "Captain Marvel": 0, 
@@ -155,7 +155,7 @@ dataset = {
     "Jawaharal": {
         "Gundala": 4, 
         "The Lion King": 4, 
-        "Bumi Manusia ": 0, 
+        "Bumi Manusia": 0, 
         "Aladdin": 5, 
         "Avengers: End Game": 5, 
         "Captain Marvel": 4, 
@@ -167,7 +167,7 @@ dataset = {
     "Rima": {
         "Gundala": 5, 
         "The Lion King": 4, 
-        "Bumi Manusia ": 4, 
+        "Bumi Manusia": 4, 
         "Aladdin": 5, 
         "Avengers: End Game": 5, 
         "Captain Marvel": 5, 
@@ -179,7 +179,7 @@ dataset = {
     "Dpv": {
         "Gundala": 4, 
         "The Lion King": 0, 
-        "Bumi Manusia ": 0, 
+        "Bumi Manusia": 0, 
         "Aladdin": 0, 
         "Avengers: End Game": 5, 
         "Captain Marvel": 5, 
@@ -191,7 +191,7 @@ dataset = {
     "Putrisqiana": {
         "Gundala": 3, 
         "The Lion King": 0, 
-        "Bumi Manusia ": 4, 
+        "Bumi Manusia": 4, 
         "Aladdin": 0, 
         "Avengers: End Game": 5, 
         "Captain Marvel": 3, 
@@ -203,7 +203,7 @@ dataset = {
     "AhokTemanFirli": {
         "Gundala": 0, 
         "The Lion King": 0, 
-        "Bumi Manusia ": 0, 
+        "Bumi Manusia": 0, 
         "Aladdin": 0, 
         "Avengers: End Game": 3, 
         "Captain Marvel": 4, 
@@ -215,7 +215,7 @@ dataset = {
     "Maria O.": {
         "Gundala": 0, 
         "The Lion King": 5, 
-        "Bumi Manusia ": 0, 
+        "Bumi Manusia": 0, 
         "Aladdin": 4, 
         "Avengers: End Game": 0, 
         "Captain Marvel": 0, 
@@ -227,7 +227,7 @@ dataset = {
     "jul": {
         "Gundala": 3, 
         "The Lion King": 3, 
-        "Bumi Manusia ": 0, 
+        "Bumi Manusia": 0, 
         "Aladdin": 3, 
         "Avengers: End Game": 3, 
         "Captain Marvel": 3, 
@@ -239,7 +239,7 @@ dataset = {
     "faizah": {
         "Gundala": 0, 
         "The Lion King": 0, 
-        "Bumi Manusia ": 5, 
+        "Bumi Manusia": 5, 
         "Aladdin": 0, 
         "Avengers: End Game": 5, 
         "Captain Marvel": 0, 
@@ -251,7 +251,7 @@ dataset = {
     "Topik Zulkarnain": {
         "Gundala": 0, 
         "The Lion King": 5, 
-        "Bumi Manusia ": 0, 
+        "Bumi Manusia": 0, 
         "Aladdin": 0, 
         "Avengers: End Game": 5, 
         "Captain Marvel": 2, 
@@ -263,7 +263,7 @@ dataset = {
     "Romantika": {
         "Gundala": 0, 
         "The Lion King": 0, 
-        "Bumi Manusia ": 0, 
+        "Bumi Manusia": 0, 
         "Aladdin": 0, 
         "Avengers: End Game": 0, 
         "Captain Marvel": 0, 
@@ -275,7 +275,7 @@ dataset = {
     "ANI": {
         "Gundala": 0, 
         "The Lion King": 0, 
-        "Bumi Manusia ": 5, 
+        "Bumi Manusia": 5, 
         "Aladdin": 4, 
         "Avengers: End Game": 0, 
         "Captain Marvel": 4, 
@@ -287,7 +287,7 @@ dataset = {
     "Febi ganteng gak ada obat": {
         "Gundala": 3, 
         "The Lion King": 0, 
-        "Bumi Manusia ": 0, 
+        "Bumi Manusia": 0, 
         "Aladdin": 5, 
         "Avengers: End Game": 5, 
         "Captain Marvel": 4, 
@@ -299,7 +299,7 @@ dataset = {
     "franadek": {
         "Gundala": 4, 
         "The Lion King": 4, 
-        "Bumi Manusia ": 5, 
+        "Bumi Manusia": 5, 
         "Aladdin": 5, 
         "Avengers: End Game": 5, 
         "Captain Marvel": 4, 
@@ -311,7 +311,7 @@ dataset = {
     "luck": {
         "Gundala": 0, 
         "The Lion King": 0, 
-        "Bumi Manusia ": 0, 
+        "Bumi Manusia": 0, 
         "Aladdin": 0, 
         "Avengers: End Game": 4, 
         "Captain Marvel": 2, 
