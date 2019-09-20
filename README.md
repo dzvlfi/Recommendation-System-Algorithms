@@ -14,7 +14,7 @@ Dari command tersebut, menghasilkan keluaran seperti pada berikut,
 <br>
 Dalam repository ini, kita memiliki beberapa metode yang kita coba aplikasikan pada data yang berbeda pula. kita akan coba bahas satu persatu.
 <br>
-<a name="cotent"/>
+<a name="content"/>
 ## 1. Rekomendasi berdasarkan konten (Content based)<br>
 Pada algoritma ini, rekomendasi dititik beratkan pada karakteristik konten yang ada. Algoritma ini menggunakan data film untuk diolah, yang berisi jenis, genre, rating, dan durasi. Pada tahapan ini dilakukan normalisasi dahulu terhadap data yang ada, lalu dilakukan perhitungan cosine similarity untuk menghitung kesamaan antar kontennya. Hasilnya sebagai berikut <br>
 ![Hasil content](https://raw.githubusercontent.com/dzvlfi/Recommendation-System-Algorithms/master/image/result_content.png)
