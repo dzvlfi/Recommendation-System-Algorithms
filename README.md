@@ -1,2 +1,2 @@
-# Association-Algorithm
-Association Algorithm
+# Recommendation-System-Algorithms
+Recommendation-System-Algorithms
